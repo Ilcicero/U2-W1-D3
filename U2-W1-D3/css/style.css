@@ -1,0 +1,65 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    color: #5e301c;
+  }
+
+  .contenutoCarta {
+    padding: 10px 20px;
+    background-color: #fef7e2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    
+.cards{
+    display: flex;
+}
+    .carta {
+        max-width: 300px;
+        border-radius: 4em;
+        overflow: hidden;
+        color: #5e301c;
+        display: flex;
+        flex-direction: column;
+        background-color: #fef7e2;;
+        margin: 10px 10px;
+    }
+
+
+.carta p {
+    margin: 10px 0 0 0;
+ 
+}
+.carta img {
+width: 100%;
+}
+
+.carta button{
+    color: #5e301c;
+    background-color: #ffdf7f;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4em;
+    border: 0;
+    
+}
+.bottone{
+    
+        padding-top: 10px;
+    
+    text-align: center;
+}
+/* .contenutoCarta{
+    background-color: #fef7e2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
+    border-bottom-right-radius: 4em;
+    border-bottom-left-radius: 4em;
+} */

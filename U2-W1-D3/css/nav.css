@@ -1,0 +1,41 @@
+main{
+   margin: 0;
+}
+
+#img{
+    width: 30px;
+}
+li h3 {
+    margin: 5px;
+}
+li{
+    margin: 0 10px;
+
+}
+li button {
+    display: flex;
+    align-items: center;
+}
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+button{
+    border-radius: 3em;
+    border: 0;
+    padding: 10px;
+    background-color: #ffdf7f;
+}
+nav{
+    border-radius: 2em;
+    background-color:  #fef7e2;
+    display: flex;
+    box-direction: row;
+    justify-content: center;
+    max-width: 1200px;
+}

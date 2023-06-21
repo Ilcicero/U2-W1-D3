@@ -1,0 +1,24 @@
+.contenitore{
+    
+    display: flex;
+    background-color:  #fef7e2;
+    color: #5e301c;
+    /* max-width: 600px; */
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: center;
+}
+.contenuto img {
+    max-width: 100%;
+    
+}
+
+.contenuto h1, p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+.contenuto{
+   
+    max-width: 300px;
+}
